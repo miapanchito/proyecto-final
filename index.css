@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: #111111;
+    font-family: 'DM Sans', Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    padding: 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.menu ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.menu a {
+    color: #111111;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+/* BANNER PRINCIPAL */
+.uno{
+    padding: 35px ;
+}
+
+.uno img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+}
+
+/* HISTORIA / DESCRIPCIÓN */
+.dos {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px ;
+}
+
+.dos h2 {
+    font-family: 'Archivo Black', Impact, sans-serif;
+    font-size: 90px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.dos p {
+    max-width: 720px;
+    color: #66645f;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* GALERÍA DE MIEMBROS */
+.tres {
+    padding: 60px 6% 90px;
+    border-top: 1px solid black;
+    display: grid;  /* Activa el diseño de cuadrícula (grid) en el contenedor */
+    grid-template-rows: auto auto;  /* Define exactamente 2 filas que se adaptan al contenido */
+    grid-auto-flow: column; /* Llena de arriba a abajo y crea columnas hacia la derecha */
+    gap: 12px 15px;
+}
+
+.tres span {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.tres img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.tres img:hover {
+    filter: grayscale(0%);
+    
+}
+
+/* FOOTER */
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 45px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer h3 {
+    font-family: 'Archivo Black', Impact, sans-serif;
+    font-size: 48px;
+    letter-spacing: -2px;
+}
+
+.redes-grupo ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /*baja en vertical, no se va para el costado*/
+    gap: 15px;
+    list-style: none;
+}
+
+.redes-grupo img {
+    width: 18px;
+    height: 18px;
+    filter: invert(1); /*invirtio su color*/
+}
+
+.redes-grupo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.redes-grupo a:hover {
+    color: #d9ff43;
+}
+    
