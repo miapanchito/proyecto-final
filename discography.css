@@ -81,7 +81,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -94,7 +93,6 @@ footer h3 {
 .redes-grupo ul {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     gap: 15px;
     list-style: none;
 }

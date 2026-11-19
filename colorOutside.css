@@ -35,11 +35,6 @@ header img {
 }
 
 /*main*/
-section h1{
-    font-family: 'Archivo Black', Impact, sans-serif;
-}
-
-
 main section {
   display: flex;
   flex-direction: column; 
@@ -47,6 +42,10 @@ main section {
   width: 100%;
   gap: 30px;
   padding: 50px;
+}
+
+section h1{
+    font-family: 'Archivo Black', Impact, sans-serif;
 }
 
 main section h2{
@@ -59,10 +58,6 @@ main section h2{
     color: #111111;
 }
 
-
-
-
-
 /*footer*/
 footer {
     background-color: #111111;
@@ -71,7 +66,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -84,7 +78,6 @@ footer h3 {
 .redes-grupo ul {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     gap: 15px;
     list-style: none;
 }

@@ -96,7 +96,7 @@ footer {
     display: flex; /* permite q podamos distribuir y alinear cada cosa*/
     align-items: center; /*alinea*/
     justify-content: space-between; /*lo justifica con el mismo espacio*/
-    flex-wrap: wrap; /*baja en vertical, no se va para el costado*/
+   
 }
 
 footer h3 {
@@ -108,7 +108,6 @@ footer h3 {
 .redes-grupo ul {
     display: flex;
     align-items: center;
-    flex-wrap: wrap; /*baja en vertical, no se va para el costado*/
     gap: 15px;
     list-style: none; /*le quita las viñetas*/
 }
