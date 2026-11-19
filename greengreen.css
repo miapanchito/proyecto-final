@@ -41,6 +41,7 @@ main section {
   width: 100%;
   gap: 30px;
   padding: 50px;
+  box-sizing: border-box;
 }
 
 section h1{

@@ -4,7 +4,6 @@ body {
     color: #111111;
     font-family: 'DM Sans', Arial, sans-serif;
 }
-
 /* HEADER */
 header {
     padding: 15px ;
@@ -42,6 +41,7 @@ main section {
   width: 100%;
   gap: 30px;
   padding: 50px;
+  box-sizing:border-box; /*hace que el padding quede incluido dentro del ancho del elemento y no se agrande más de lo establecido.*/
 }
 
 section h1{
@@ -67,6 +67,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+   
 }
 
 footer h3 {
