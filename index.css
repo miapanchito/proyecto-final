@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body {
     background-color: white;
@@ -16,13 +11,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; /*lineaaaa*/
 }
 
 header img {
     width: 75px;
     height: 75px;
-    object-fit: contain;
+    object-fit: contain; /*hace que la iamgen entre toda*/
 }
 
 .menu ul {
@@ -41,81 +36,73 @@ header img {
 
 /* BANNER PRINCIPAL */
 .uno{
-    padding: 35px ;
+    padding: 35px ; /*el espacio que hay entre todo y el borde*/
 }
 
 .uno img {
-    width: 100%;
-    height: 550px;
-    object-fit: cover;
-    display: block;
+    width: 100%; /*la imagen ocupa el 100% del ancho de la pagina*/
+    height: 550px; /*la altura*/
+    object-fit: cover; /*hace q tenga el mismo tamaño y no se deforme*/
 }
 
 /* HISTORIA / DESCRIPCIÓN */
 .dos {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px ;
+    max-width: 1100px; /*el ancho maximo es de 1100px*/
+    margin: 0 auto; /*margen automatico 0*/
+    padding: 20px ; /*el espacio que hay entre todo y el borde*/
 }
 
 .dos h2 {
-    font-family: 'Archivo Black', Impact, sans-serif;
-    font-size: 90px;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
+    font-family: 'Archivo Black', Impact, sans-serif; /*la tipografia*/
+    font-size: 90px; /*el tamaño de la tipografia*/
+    letter-spacing: 4px; /*espacio entre cada letra*/
+    margin-bottom: 20px; /*margen inferior*/
 }
 
 .dos p {
-    max-width: 720px;
-    color: #66645f;
-    font-size: 17px;
-    line-height: 1.8;
+    max-width: 720px; /*el ancho maximo del texto es de 720px*/
+    color: #66645f; /*color del texto*/
+    font-size: 17px; /*el tamaño de la tipografia*/
+    line-height: 1.8; /*espacio vertical entre cada linea*/
 }
 
 /* GALERÍA DE MIEMBROS */
 .tres {
-    padding: 60px 6% 90px;
-    border-top: 1px solid black;
-    display: grid;  /* Activa el diseño de cuadrícula (grid) en el contenedor */
-    grid-template-rows: auto auto;  /* Define exactamente 2 filas que se adaptan al contenido */
-    grid-auto-flow: column; /* Llena de arriba a abajo y crea columnas hacia la derecha */
-    gap: 12px 15px;
+   display: flex; /* permite q podamos distribuir y alinear cada cosa*/
+    justify-content: center; /*lo justifica en el centro*/
+    gap: 15px; /*espacio entre cada imagen*/
 }
-
-.tres span {
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1.5px;
+.carta{
+      width: 180px; /*establece el ancho de la carta*/
 }
 
 .tres img {
-    width: 100%;
-    height: 310px;
-    object-fit: cover;
-    filter: grayscale(100%);
+    width: 100%; /*hace que la imagen ocupe todo el ancho posible*/
+    height: 280px; /*la altura de la carta*/
+    object-fit: cover; /*hace q tengan el mismo tamaño y no se deformen*/
+    filter: grayscale(100%); /*le agrega un flitro, 100% = blanco y negro*/
 }
 
-.tres img:hover {
-    filter: grayscale(0%);
+.tres img:hover { /*el hover es para cuando pasas el puntero*/
+    filter: grayscale(0%); /*le agrega un filtro. 0%  = su color original*/
     
 }
 
 /* FOOTER */
 footer {
-    background-color: #111111;
-    color: #ffffff;
-    padding: 45px 6%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+    background-color: #111111; /*color del fonde del pie de pagina*/
+    color: #ffffff; /*color del texto*/
+    padding: 45px 6%; /*el espacio que hay entre todo y el borde*/
+    display: flex; /* permite q podamos distribuir y alinear cada cosa*/
+    align-items: center; /*alinea*/
+    justify-content: space-between; /*lo justifica con el mismo espacio*/
+    flex-wrap: wrap; /*baja en vertical, no se va para el costado*/
 }
 
 footer h3 {
-    font-family: 'Archivo Black', Impact, sans-serif;
-    font-size: 48px;
-    letter-spacing: -2px;
+    font-family: 'Archivo Black', Impact, sans-serif; /*la tipografia*/
+    font-size: 48px; /*el tamaño de la tipografia*/
+    letter-spacing: -2px; /*espacio entre cada letra*/
 }
 
 .redes-grupo ul {
@@ -123,7 +110,7 @@ footer h3 {
     align-items: center;
     flex-wrap: wrap; /*baja en vertical, no se va para el costado*/
     gap: 15px;
-    list-style: none;
+    list-style: none; /*le quita las viñetas*/
 }
 
 .redes-grupo img {
@@ -134,12 +121,12 @@ footer h3 {
 
 .redes-grupo a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; /*le quita la linea del enlace*/
     font-size: 13px;
     font-weight: 600;
 }
 
-.redes-grupo a:hover {
+.redes-grupo a:hover { /*cuando pasas el puntero en el enlace se pone amarillo*/
     color: #d9ff43;
 }
     
